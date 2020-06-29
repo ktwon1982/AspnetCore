@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\web\\AspnetNote\\AspnetNote\\AspnetNote\\AspnetNote.csproj": {}
+    "D:\\VisualStudio\\web\\git\\AspnetCore\\AspnetNote\\AspnetNote.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\web\\AspnetNote\\AspnetNote\\AspnetNote\\AspnetNote.csproj": {
+    "D:\\VisualStudio\\web\\git\\AspnetCore\\AspnetNote\\AspnetNote.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\web\\AspnetNote\\AspnetNote\\AspnetNote\\AspnetNote.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\web\\git\\AspnetCore\\AspnetNote\\AspnetNote.csproj",
         "projectName": "AspnetNote",
-        "projectPath": "D:\\VisualStudio\\web\\AspnetNote\\AspnetNote\\AspnetNote\\AspnetNote.csproj",
+        "projectPath": "D:\\VisualStudio\\web\\git\\AspnetCore\\AspnetNote\\AspnetNote.csproj",
         "packagesPath": "C:\\Users\\ktwon\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\web\\AspnetNote\\AspnetNote\\AspnetNote\\obj\\",
+        "outputPath": "D:\\VisualStudio\\web\\git\\AspnetCore\\AspnetNote\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ktwon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0-preview.5.20278.2, )"

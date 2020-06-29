@@ -23,8 +23,9 @@ namespace AspnetNote.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult LoginSuccess()
         {
+
             return View();
         }
 
